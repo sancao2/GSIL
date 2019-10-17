@@ -11,6 +11,9 @@
     :license:   GPL, see LICENSE for more details.
     :copyright: Copyright (c) 2018 Feei. All rights reserved
 """
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 import os
 import time
 import shutil
@@ -76,7 +79,7 @@ class Process(object):
         :param data:
         :return:
         """
-        with open(os.path.join(Config().data_path, sha), 'w+', encoding='utf-8') as f:
+        with open(os.path.join(Config().data_path, sha), 'w+') as f:
             f.writelines(data)
         return True
 

@@ -1,3 +1,4 @@
+
 # GSIL(GitHub Sensitive Information Leakage)
 
 [中文文档](https://github.com/FeeiCN/GSIL/blob/master/README-zh.md)
@@ -10,7 +11,6 @@
 
 ```bash
 $ git clone https://github.com/FeeiCN/gsil.git
-$ cd gsil/
 $ pip install -r requirements.txt
 ```
 
